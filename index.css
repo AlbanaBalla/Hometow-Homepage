@@ -1,0 +1,112 @@
+body {
+   /* margin: 0;*/
+    /*padding: 0;*/
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#0077b6, #0096c7, #00b4d8);
+    border: 10px dotted #ecbcfd;
+    color: #ffffff;
+    line-height: 25px;
+}
+.hero {
+  height: 400px;
+  background-image: url(https://api.seeplaces.com/Storage/Static/Images/bbfbc8cf-e2a3-4fee-8ec6-5050aced7f92.jpg);
+  background-size: cover;
+  background-position: center; /* Center the image */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero:hover {
+    background-image: url(https://i0.wp.com/travel-stained.com/wp-content/uploads/2019/03/IMG_3948.jpg?resize=1100%2C825&ssl=1)
+}
+#title {
+  background: #1d3557;
+  margin-top: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 0 0 0;
+}
+
+#albania {
+    background: #1d3557;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    margin-top: 10px;
+}
+
+.intro {
+    background: #a3b18a;
+    background-size: cover; 
+    opacity: 0.8;
+    padding: 40px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    width: 600px;
+    line-height: 35px;
+}
+h3 {
+    font-weight: bold;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text1 {
+    background: #a3b18a;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-shadow: 2px 0 #1d3557;
+}
+
+
+#foto1 {
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-image: url("https://choosebalkans.com/wp-content/uploads/2022/02/DurresAlbania-Choose-Balkans-1.jpg")
+}
+#foto1:hover {
+    background-image: url(https://www.destinations-in-europe.com/wp-content/uploads/2021/09/durres-albania.jpg)
+}
+
+#foto2 {
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    height: 400px;
+    background-image: url("https://diamond-beach-residence-hotel-durres.booked.net/data/Photos/OriginalPhoto/12567/1256778/1256778781/Diamond-Beach-Residence-Hotel-Durres-Exterior.JPEG")
+}
+
+#foto2:hover {
+    background-image: url(https://emerging-europe.com/wp-content/uploads/2018/05/ah_48hours_durres_1_bigstockphoto.jpg)
+}
+
+#foto3 {
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    height: 400px;
+    background-image: url("https://news.tibo.tv/wp-content/uploads/2023/03/O-1-3.png")
+}
+
+#foto3:hover {
+    background-image: url(https://i0.wp.com/www.traveladdictslife.com/wp-content/uploads/2020/04/discover-Durres-albania-venetian-tower.jpg?fit=1200%2C667&ssl=1)
+}
+
+p {
+    padding: 20px 20px;
+    background: #a3b18a;
+    opacity: 0.6; 
+    border-radius: 20px;
+}
+.attractions {
+        font-family: 'Fasthand', cursive;
+        color: #03045e;
+}
